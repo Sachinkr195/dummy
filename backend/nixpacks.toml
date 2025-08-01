@@ -1,0 +1,2 @@
+[phases.setup]
+env = { MISE_NODE_DISABLE_GPG = "1" }
