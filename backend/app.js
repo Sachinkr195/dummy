@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: ["http://localhost:5173", "https://dummy-ow56.vercel.app/"],
+  origin: ["https://dummy-ow56.vercel.app/"],
   credentials: true
 }));
 
